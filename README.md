@@ -7,6 +7,7 @@ Script to perform usefull task on server
 .htacces has to contain "Deny from all" directive
 
 **Arguments:**
+
 htaccess 	- path to .htaccess file
 
 user 		- username to mark for override purpose
@@ -20,6 +21,8 @@ e.g in .zsrhc or .bash_profile
 alias allowIP_project_name="ssh user@server 'bash -s' < /path/to/script/allowIP.sh /var/www/share/default/htdocs/.htaccess"
 ```
 
-```bash
-command then (first argument is already in the alias):	`allowIP_project_name user ip`
+command then (first argument is already in the alias):	
+
+```bash 
+allowIP_project_name user ip
 ```
