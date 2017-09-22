@@ -3,11 +3,14 @@ Script to perform usefull task on server
 
 ## htaccess_allowIp
 **Adds "Allow from " directive with ip to .htaccess file**
+
 .htacces has to contain "Deny from all" directive
 
 **Arguments:**
 htaccess 	- path to .htaccess file
+
 user 		- username to mark for override purpose
+
 ip			- ip to allow access
 
 **Example usage as remote script:**
